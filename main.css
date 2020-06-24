@@ -1,6 +1,7 @@
 body {
     background-image: url('https://www.pngitem.com/pimgs/m/338-3382087_facebook-creative-logo-of-facebook-hd-png-download.png');
     background-size: cover;
+    /*overflow: scroll;*/
   }
   
 h1,h2,h3,h4,h5,h6{
@@ -26,9 +27,8 @@ h4, a {
 
  }
 
- .devMissionLogo{
-    width:20px; 
-    height:30px;
-    width: 50%;
+/* .devMissionLogo{
+    height: 80px; 
+    width: 90px;
     bottom: 10px;
- }
+ }*/
