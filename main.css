@@ -3,21 +3,13 @@ body {
     background-size: cover;
   }
   
-/*#facebookLogo{ 
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    animation: bounce;
-}*/
 h1,h2,h3,h4,h5,h6{
     color: black;
     font-size: 2em;
     text-align: center;
 }
 
-
 h1{
-     color: rgb(52, 158, 235) ;
     font-size: 4em;
 }
 
@@ -25,27 +17,18 @@ h4, a {
     color: black;
     font-size: 2em;
 }
-
-/* Now all the images are centered instead of 
-*just one image when you use the id names as selectors
-*/
-    
- 
+     
  #likeLogo{
-    /*width: auto;
-    height:auto; 
-    max-width: 200px; 
-    max-height: 200px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height
-    
-    /*opacity:0.5;*/
+    float:right;
+
  }
- #devMissionLogo{
+
+ .devMissionLogo{
     width:20px; 
     height:30px;
-    opacity: 0.5;
+    width: 50%;
+    bottom: 10px;
  }
